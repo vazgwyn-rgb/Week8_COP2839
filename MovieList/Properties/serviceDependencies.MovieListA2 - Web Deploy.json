@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/MovieListA2/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsMovieContext1_4556CA311F",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/movielistsql-a2/databases/MovieList_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:MovieContext1",
+      "dynamicId": null
+    }
+  }
+}
